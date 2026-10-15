@@ -1,0 +1,169 @@
+{
+  "dataset": {
+    "history_length": 64,
+    "pc_bits": 14,
+    "vocabulary_size": 32768,
+    "num_scalars": 84,
+    "num_seq_numeric": 7,
+    "splits": {
+      "train": {
+        "families": [
+          "W27",
+          "W3",
+          "W32",
+          "W5",
+          "W8"
+        ],
+        "traces": [
+          "web_27_trace",
+          "web_32_trace",
+          "web_3_trace",
+          "web_5_trace",
+          "web_8_trace"
+        ],
+        "samples": 30829083,
+        "taken_rate": 0.384963
+      },
+      "validation": {
+        "families": [
+          "W33"
+        ],
+        "traces": [
+          "web_33_trace"
+        ],
+        "samples": 6037861,
+        "taken_rate": 0.382463
+      },
+      "test": {
+        "families": [
+          "W31"
+        ],
+        "traces": [
+          "web_31_trace"
+        ],
+        "samples": 6079345,
+        "taken_rate": 0.380507
+      }
+    }
+  },
+  "model_config": {
+    "vocabulary_size": 32768,
+    "num_pc_ids": 16384,
+    "num_scalars": 84,
+    "num_seq_numeric": 7,
+    "history_length": 64,
+    "token_embed_dim": 32,
+    "class_embed_dim": 8,
+    "pc_embed_dim": 32,
+    "conv_channels": [
+      64,
+      64,
+      128
+    ],
+    "kernel_size": 3,
+    "pool_every": 1,
+    "dropout": 0.2,
+    "head_dims": [
+      256,
+      64
+    ],
+    "use_sequence": true,
+    "use_scalars": true,
+    "use_pc": true,
+    "aux_targets": 0,
+    "use_tage": false,
+    "tage_mode": "both",
+    "num_tage_features": 6,
+    "num_tage_states": 48,
+    "tage_init": 1.0
+  },
+  "train_config": {
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 6,
+    "patience": 3,
+    "max_batches": null,
+    "shuffle_labels": false,
+    "device": "mps",
+    "seed": 0,
+    "threads": null
+  },
+  "parameters": 1928225,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.09681956208119964,
+      "train_accuracy": 0.9601844141780019,
+      "val_loss": 0.1495209444778495,
+      "val_accuracy": 0.9447079023515116,
+      "seconds": 539.4373121261597
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.08480399768263362,
+      "train_accuracy": 0.9650443057291065,
+      "val_loss": 0.14855665037951157,
+      "val_accuracy": 0.9457072628866415,
+      "seconds": 528.809417963028
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.08308735776313335,
+      "train_accuracy": 0.965703488488451,
+      "val_loss": 0.14639985718321474,
+      "val_accuracy": 0.9466064223737513,
+      "seconds": 530.6572029590607
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0822120758048676,
+      "train_accuracy": 0.9660528015056432,
+      "val_loss": 0.14392466871303658,
+      "val_accuracy": 0.9465565702820916,
+      "seconds": 547.9185771942139
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0816607385672808,
+      "train_accuracy": 0.9662506341820157,
+      "val_loss": 0.14067127239097393,
+      "val_accuracy": 0.947229159465579,
+      "seconds": 556.1963748931885
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.08124122601904495,
+      "train_accuracy": 0.966442693089509,
+      "val_loss": 0.14013426899318626,
+      "val_accuracy": 0.9468162648991091,
+      "seconds": 538.1628558635712
+    }
+  ],
+  "best_val_accuracy": 0.947229159465579,
+  "test": {
+    "loss": 0.1384497209816773,
+    "accuracy": 0.9481375049450229,
+    "samples": 6079345
+  },
+  "test_mpki_on_scored_branches": 7.882246452989088,
+  "tage_weights": null,
+  "baselines": {
+    "validation": {
+      "samples": 6037861,
+      "instructions": 40000019,
+      "taken_rate": 0.382462762889043,
+      "majority_accuracy": 0.617537237110957,
+      "always_taken_accuracy": 0.382462762889043,
+      "two_bit_accuracy": 0.9105211266042726
+    },
+    "test": {
+      "samples": 6079345,
+      "instructions": 40000018,
+      "taken_rate": 0.3805071105522059,
+      "majority_accuracy": 0.6194928894477941,
+      "always_taken_accuracy": 0.3805071105522059,
+      "two_bit_accuracy": 0.9117363794948304
+    }
+  }
+}

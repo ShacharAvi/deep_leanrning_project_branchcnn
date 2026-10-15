@@ -1,0 +1,149 @@
+{
+  "rule": "train traces only; hot (>=3000) and hard (>=100 TAGE misses) in >= 3 train traces; top 16 by pooled TAGE misses",
+  "branches": [
+    {
+      "pc": "0xaaaaab3b3908",
+      "train_executions": 739012,
+      "train_tage_misses": 115534,
+      "train_tage_accuracy": 0.8436642436117411,
+      "eligible_in_train_traces": 29,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 13.7 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab3b38e8",
+      "train_executions": 544237,
+      "train_tage_misses": 85246,
+      "train_tage_accuracy": 0.8433660335478845,
+      "eligible_in_train_traces": 29,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 16.1 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab3b425c",
+      "train_executions": 311464,
+      "train_tage_misses": 70293,
+      "train_tage_accuracy": 0.774314206457247,
+      "eligible_in_train_traces": 28,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 10.9 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab3b40b4",
+      "train_executions": 273524,
+      "train_tage_misses": 66236,
+      "train_tage_accuracy": 0.7578420906392127,
+      "eligible_in_train_traces": 26,
+      "category": "uncertain",
+      "category_reason": "22% low-confidence, 36% provider/alt disagree"
+    },
+    {
+      "pc": "0xaaaaab3b40a0",
+      "train_executions": 273524,
+      "train_tage_misses": 50835,
+      "train_tage_accuracy": 0.8141479358301282,
+      "eligible_in_train_traces": 26,
+      "category": "uncertain",
+      "category_reason": "17% low-confidence, 31% provider/alt disagree"
+    },
+    {
+      "pc": "0xaaaaab4bd76c",
+      "train_executions": 154663,
+      "train_tage_misses": 29724,
+      "train_tage_accuracy": 0.8078144093933262,
+      "eligible_in_train_traces": 18,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 13.0 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab10a074",
+      "train_executions": 137697,
+      "train_tage_misses": 26486,
+      "train_tage_accuracy": 0.807650130358686,
+      "eligible_in_train_traces": 18,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 11.3 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab4bd7c8",
+      "train_executions": 121906,
+      "train_tage_misses": 24457,
+      "train_tage_accuracy": 0.7993782094400603,
+      "eligible_in_train_traces": 17,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 13.7 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab3b38dc",
+      "train_executions": 576663,
+      "train_tage_misses": 24174,
+      "train_tage_accuracy": 0.9580795022396096,
+      "eligible_in_train_traces": 28,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 11.6 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab3b3a18",
+      "train_executions": 178368,
+      "train_tage_misses": 23181,
+      "train_tage_accuracy": 0.8700383476856836,
+      "eligible_in_train_traces": 21,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 16.3 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab3b4234",
+      "train_executions": 311464,
+      "train_tage_misses": 23041,
+      "train_tage_accuracy": 0.9260235532838466,
+      "eligible_in_train_traces": 28,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 9.5, 92.6% accurate"
+    },
+    {
+      "pc": "0xaaaaab4c1b14",
+      "train_executions": 118668,
+      "train_tage_misses": 22709,
+      "train_tage_accuracy": 0.8086341726497455,
+      "eligible_in_train_traces": 19,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 12.9 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab468ba8",
+      "train_executions": 80086,
+      "train_tage_misses": 21626,
+      "train_tage_accuracy": 0.7299652873161351,
+      "eligible_in_train_traces": 8,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 14.8 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab3b389c",
+      "train_executions": 414016,
+      "train_tage_misses": 18176,
+      "train_tage_accuracy": 0.9560983150409645,
+      "eligible_in_train_traces": 29,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 10.5 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab10b2a0",
+      "train_executions": 239719,
+      "train_tage_misses": 17917,
+      "train_tage_accuracy": 0.9252583232868483,
+      "eligible_in_train_traces": 24,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 14.5 -- correlation is real but deep"
+    },
+    {
+      "pc": "0xaaaaab4a2d24",
+      "train_executions": 742496,
+      "train_tage_misses": 17600,
+      "train_tage_accuracy": 0.9762961685988881,
+      "eligible_in_train_traces": 29,
+      "category": "deep-correlation",
+      "category_reason": "mean hit_bank 7.5, 97.6% accurate"
+    }
+  ]
+}

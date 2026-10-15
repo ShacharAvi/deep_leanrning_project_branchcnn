@@ -1,0 +1,146 @@
+{
+  "group": "web_g0",
+  "fold": 0,
+  "split_kind": "cross-trace",
+  "test": [
+    "web_91",
+    "web_39",
+    "web_114",
+    "web_28",
+    "web_73",
+    "web_55",
+    "web_127",
+    "web_107",
+    "web_33"
+  ],
+  "validation": [
+    "web_128",
+    "web_8",
+    "web_2",
+    "web_74",
+    "web_126",
+    "web_6",
+    "web_83",
+    "web_38",
+    "web_92"
+  ],
+  "train": [
+    "web_31",
+    "web_106",
+    "web_82",
+    "web_53",
+    "web_32",
+    "web_81",
+    "web_80",
+    "web_105",
+    "web_124",
+    "web_3",
+    "web_34",
+    "web_47",
+    "web_4",
+    "web_75",
+    "web_90",
+    "web_37",
+    "web_88",
+    "web_72",
+    "web_29",
+    "web_56",
+    "web_79",
+    "web_40",
+    "web_35",
+    "web_130",
+    "web_57",
+    "web_27",
+    "web_5",
+    "web_67",
+    "web_43",
+    "web_100",
+    "web_108",
+    "web_109",
+    "web_110",
+    "web_116",
+    "web_125",
+    "web_45",
+    "web_51",
+    "web_60",
+    "web_62",
+    "web_68",
+    "web_70",
+    "web_76",
+    "web_78"
+  ],
+  "pooled_from": "web_g0",
+  "pool_extra": [
+    {
+      "trace": "web_100",
+      "shared_hard_branches": 14,
+      "max_similarity_to_heldout": 0.3714
+    },
+    {
+      "trace": "web_108",
+      "shared_hard_branches": 15,
+      "max_similarity_to_heldout": 0.4505
+    },
+    {
+      "trace": "web_109",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.5133
+    },
+    {
+      "trace": "web_110",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.803
+    },
+    {
+      "trace": "web_116",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.8923
+    },
+    {
+      "trace": "web_125",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.6967
+    },
+    {
+      "trace": "web_45",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.855
+    },
+    {
+      "trace": "web_51",
+      "shared_hard_branches": 13,
+      "max_similarity_to_heldout": 0.4144
+    },
+    {
+      "trace": "web_60",
+      "shared_hard_branches": 13,
+      "max_similarity_to_heldout": 0.7031
+    },
+    {
+      "trace": "web_62",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.7533
+    },
+    {
+      "trace": "web_68",
+      "shared_hard_branches": 15,
+      "max_similarity_to_heldout": 0.2193
+    },
+    {
+      "trace": "web_70",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.6439
+    },
+    {
+      "trace": "web_76",
+      "shared_hard_branches": 16,
+      "max_similarity_to_heldout": 0.7878
+    },
+    {
+      "trace": "web_78",
+      "shared_hard_branches": 14,
+      "max_similarity_to_heldout": 0.4095
+    }
+  ],
+  "pool_rejected_near_heldout": []
+}

@@ -1,0 +1,58 @@
+{
+  "trace": "media_6",
+  "test_instructions": 5892212,
+  "gate_alpha": 0.05,
+  "tage_test_mispredictions": 3255,
+  "tage_test_mpki": 0.552424115086151,
+  "variants": {
+    "tokens": {
+      "branches_modelled": 8,
+      "attach_all": {
+        "attached": 8,
+        "mispredictions": 3269,
+        "mpki": 0.5548001327854463,
+        "mpki_reduction": -0.004301075268817204
+      },
+      "attach_gated": {
+        "attached": 1,
+        "mispredictions": 3096,
+        "mpki": 0.5254393426441547,
+        "mpki_reduction": 0.04884792626728111
+      }
+    },
+    "tage_raw": {
+      "branches_modelled": 8,
+      "attach_all": {
+        "attached": 8,
+        "mispredictions": 3318,
+        "mpki": 0.5631161947329797,
+        "mpki_reduction": -0.01935483870967742
+      },
+      "attach_gated": {
+        "attached": 1,
+        "mispredictions": 3084,
+        "mpki": 0.5234027560447587,
+        "mpki_reduction": 0.052534562211981564
+      }
+    },
+    "tage_raw_shuffled": {
+      "branches_modelled": 8,
+      "attach_all": {
+        "attached": 8,
+        "mispredictions": 3403,
+        "mpki": 0.5775420164787011,
+        "mpki_reduction": -0.04546850998463902
+      },
+      "attach_gated": {
+        "attached": 1,
+        "mispredictions": 3138,
+        "mpki": 0.5325673957420405,
+        "mpki_reduction": 0.035944700460829496
+      }
+    }
+  },
+  "oracle_perfect_on_modelled": {
+    "mpki": 0.0816331795257876,
+    "mpki_reduction": 0.8522273425499232
+  }
+}

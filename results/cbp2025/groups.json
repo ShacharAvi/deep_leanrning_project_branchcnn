@@ -1,0 +1,1235 @@
+{
+  "rule": {
+    "categories": [
+      "media",
+      "fp",
+      "infra",
+      "web"
+    ],
+    "top_k": 16,
+    "min_exec": 3000,
+    "min_miss": 100,
+    "hot_exec": 1000,
+    "min_shared": 2,
+    "out": "results/cbp2025/groups.json"
+  },
+  "groups": [
+    {
+      "name": "media_g0",
+      "category": "media",
+      "members": [
+        "media_0",
+        "media_1",
+        "media_3",
+        "media_7",
+        "media_12",
+        "media_13"
+      ],
+      "size": 6,
+      "hard_pcs_hot_in_all": 25
+    },
+    {
+      "name": "media_g1",
+      "category": "media",
+      "members": [
+        "media_5",
+        "media_10",
+        "media_11"
+      ],
+      "size": 3,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "media_g2",
+      "category": "media",
+      "members": [
+        "media_2",
+        "media_6"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "media_g3",
+      "category": "media",
+      "members": [
+        "media_4",
+        "media_9"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 5
+    },
+    {
+      "name": "media_g4",
+      "category": "media",
+      "members": [
+        "media_8"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g0",
+      "category": "fp",
+      "members": [
+        "fp_3",
+        "fp_19",
+        "fp_20",
+        "fp_21",
+        "fp_22"
+      ],
+      "size": 5,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g1",
+      "category": "fp",
+      "members": [
+        "fp_9",
+        "fp_53",
+        "fp_54",
+        "fp_55",
+        "fp_56"
+      ],
+      "size": 5,
+      "hard_pcs_hot_in_all": 17
+    },
+    {
+      "name": "fp_g2",
+      "category": "fp",
+      "members": [
+        "fp_40",
+        "fp_41",
+        "fp_42",
+        "fp_47"
+      ],
+      "size": 4,
+      "hard_pcs_hot_in_all": 7
+    },
+    {
+      "name": "fp_g3",
+      "category": "fp",
+      "members": [
+        "fp_6",
+        "fp_44",
+        "fp_45",
+        "fp_46"
+      ],
+      "size": 4,
+      "hard_pcs_hot_in_all": 13
+    },
+    {
+      "name": "fp_g4",
+      "category": "fp",
+      "members": [
+        "fp_14",
+        "fp_15",
+        "fp_16"
+      ],
+      "size": 3,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "fp_g5",
+      "category": "fp",
+      "members": [
+        "fp_4",
+        "fp_24",
+        "fp_26"
+      ],
+      "size": 3,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "fp_g6",
+      "category": "fp",
+      "members": [
+        "fp_27",
+        "fp_34"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "fp_g7",
+      "category": "fp",
+      "members": [
+        "fp_28",
+        "fp_31"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "fp_g8",
+      "category": "fp",
+      "members": [
+        "fp_30",
+        "fp_32"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 5
+    },
+    {
+      "name": "fp_g9",
+      "category": "fp",
+      "members": [
+        "fp_35",
+        "fp_37"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "fp_g10",
+      "category": "fp",
+      "members": [
+        "fp_5",
+        "fp_36"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "fp_g11",
+      "category": "fp",
+      "members": [
+        "fp_48",
+        "fp_49"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 19
+    },
+    {
+      "name": "fp_g12",
+      "category": "fp",
+      "members": [
+        "fp_8",
+        "fp_51"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 8
+    },
+    {
+      "name": "fp_g13",
+      "category": "fp",
+      "members": [
+        "fp_0"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 2
+    },
+    {
+      "name": "fp_g14",
+      "category": "fp",
+      "members": [
+        "fp_1"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "fp_g15",
+      "category": "fp",
+      "members": [
+        "fp_10"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g16",
+      "category": "fp",
+      "members": [
+        "fp_11"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "fp_g17",
+      "category": "fp",
+      "members": [
+        "fp_12"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 5
+    },
+    {
+      "name": "fp_g18",
+      "category": "fp",
+      "members": [
+        "fp_13"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g19",
+      "category": "fp",
+      "members": [
+        "fp_17"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 2
+    },
+    {
+      "name": "fp_g20",
+      "category": "fp",
+      "members": [
+        "fp_2"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g21",
+      "category": "fp",
+      "members": [
+        "fp_23"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "fp_g22",
+      "category": "fp",
+      "members": [
+        "fp_25"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "fp_g23",
+      "category": "fp",
+      "members": [
+        "fp_29"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g24",
+      "category": "fp",
+      "members": [
+        "fp_33"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g25",
+      "category": "fp",
+      "members": [
+        "fp_38"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g26",
+      "category": "fp",
+      "members": [
+        "fp_39"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "fp_g27",
+      "category": "fp",
+      "members": [
+        "fp_43"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g28",
+      "category": "fp",
+      "members": [
+        "fp_50"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g29",
+      "category": "fp",
+      "members": [
+        "fp_52"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g30",
+      "category": "fp",
+      "members": [
+        "fp_57"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 13
+    },
+    {
+      "name": "fp_g31",
+      "category": "fp",
+      "members": [
+        "fp_58"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "fp_g32",
+      "category": "fp",
+      "members": [
+        "fp_59"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 5
+    },
+    {
+      "name": "fp_g33",
+      "category": "fp",
+      "members": [
+        "fp_60"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 5
+    },
+    {
+      "name": "fp_g34",
+      "category": "fp",
+      "members": [
+        "fp_7"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "infra_g0",
+      "category": "infra",
+      "members": [
+        "infra_0",
+        "infra_1",
+        "infra_3",
+        "infra_4",
+        "infra_6",
+        "infra_7",
+        "infra_16",
+        "infra_17",
+        "infra_18",
+        "infra_22",
+        "infra_23",
+        "infra_27",
+        "infra_28",
+        "infra_29",
+        "infra_35",
+        "infra_36",
+        "infra_42",
+        "infra_43",
+        "infra_44",
+        "infra_46",
+        "infra_47",
+        "infra_48",
+        "infra_52",
+        "infra_53",
+        "infra_59",
+        "infra_60",
+        "infra_62",
+        "infra_63",
+        "infra_64",
+        "infra_65",
+        "infra_67",
+        "infra_68",
+        "infra_69",
+        "infra_78"
+      ],
+      "size": 34,
+      "hard_pcs_hot_in_all": 8
+    },
+    {
+      "name": "infra_g1",
+      "category": "infra",
+      "members": [
+        "infra_5",
+        "infra_8",
+        "infra_24",
+        "infra_25",
+        "infra_26",
+        "infra_30",
+        "infra_31",
+        "infra_39",
+        "infra_40",
+        "infra_50",
+        "infra_55",
+        "infra_56",
+        "infra_71",
+        "infra_72",
+        "infra_73",
+        "infra_74"
+      ],
+      "size": 16,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "infra_g2",
+      "category": "infra",
+      "members": [
+        "infra_9",
+        "infra_10",
+        "infra_11",
+        "infra_12",
+        "infra_15",
+        "infra_81",
+        "infra_82",
+        "infra_87",
+        "infra_88",
+        "infra_89",
+        "infra_92",
+        "infra_94",
+        "infra_100",
+        "infra_101"
+      ],
+      "size": 14,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "infra_g3",
+      "category": "infra",
+      "members": [
+        "infra_83",
+        "infra_84",
+        "infra_85",
+        "infra_86",
+        "infra_90",
+        "infra_91",
+        "infra_93",
+        "infra_95",
+        "infra_96",
+        "infra_97",
+        "infra_98",
+        "infra_99"
+      ],
+      "size": 12,
+      "hard_pcs_hot_in_all": 17
+    },
+    {
+      "name": "infra_g4",
+      "category": "infra",
+      "members": [
+        "infra_2",
+        "infra_19",
+        "infra_20",
+        "infra_21",
+        "infra_33",
+        "infra_34",
+        "infra_38",
+        "infra_41",
+        "infra_51"
+      ],
+      "size": 9,
+      "hard_pcs_hot_in_all": 2
+    },
+    {
+      "name": "infra_g5",
+      "category": "infra",
+      "members": [
+        "infra_13",
+        "infra_14",
+        "infra_79",
+        "infra_80"
+      ],
+      "size": 4,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "infra_g6",
+      "category": "infra",
+      "members": [
+        "infra_37",
+        "infra_54",
+        "infra_57",
+        "infra_58"
+      ],
+      "size": 4,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "infra_g7",
+      "category": "infra",
+      "members": [
+        "infra_70",
+        "infra_75",
+        "infra_76",
+        "infra_77"
+      ],
+      "size": 4,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "infra_g8",
+      "category": "infra",
+      "members": [
+        "infra_32",
+        "infra_45",
+        "infra_49"
+      ],
+      "size": 3,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "infra_g9",
+      "category": "infra",
+      "members": [
+        "infra_61",
+        "infra_66"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 19
+    },
+    {
+      "name": "web_g0",
+      "category": "web",
+      "members": [
+        "web_2",
+        "web_3",
+        "web_4",
+        "web_5",
+        "web_6",
+        "web_8",
+        "web_27",
+        "web_28",
+        "web_29",
+        "web_31",
+        "web_32",
+        "web_33",
+        "web_34",
+        "web_35",
+        "web_37",
+        "web_38",
+        "web_39",
+        "web_40",
+        "web_43",
+        "web_47",
+        "web_53",
+        "web_55",
+        "web_56",
+        "web_57",
+        "web_67",
+        "web_72",
+        "web_73",
+        "web_74",
+        "web_75",
+        "web_79",
+        "web_80",
+        "web_81",
+        "web_82",
+        "web_83",
+        "web_88",
+        "web_90",
+        "web_91",
+        "web_92",
+        "web_105",
+        "web_106",
+        "web_107",
+        "web_114",
+        "web_124",
+        "web_126",
+        "web_127",
+        "web_128",
+        "web_130"
+      ],
+      "size": 47,
+      "hard_pcs_hot_in_all": 15
+    },
+    {
+      "name": "web_g1",
+      "category": "web",
+      "members": [
+        "web_13",
+        "web_138",
+        "web_139",
+        "web_140",
+        "web_143",
+        "web_151",
+        "web_152",
+        "web_153",
+        "web_159",
+        "web_169",
+        "web_174",
+        "web_179",
+        "web_187",
+        "web_194",
+        "web_195",
+        "web_196",
+        "web_199"
+      ],
+      "size": 17,
+      "hard_pcs_hot_in_all": 7
+    },
+    {
+      "name": "web_g2",
+      "category": "web",
+      "members": [
+        "web_0",
+        "web_45",
+        "web_51",
+        "web_60",
+        "web_62",
+        "web_68",
+        "web_70",
+        "web_76",
+        "web_78",
+        "web_100",
+        "web_108",
+        "web_109",
+        "web_110",
+        "web_116",
+        "web_125"
+      ],
+      "size": 15,
+      "hard_pcs_hot_in_all": 7
+    },
+    {
+      "name": "web_g3",
+      "category": "web",
+      "members": [
+        "web_1",
+        "web_9",
+        "web_41",
+        "web_46",
+        "web_65",
+        "web_66",
+        "web_95",
+        "web_119",
+        "web_120",
+        "web_121",
+        "web_122",
+        "web_132"
+      ],
+      "size": 12,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "web_g4",
+      "category": "web",
+      "members": [
+        "web_15",
+        "web_17",
+        "web_19",
+        "web_20",
+        "web_160",
+        "web_164",
+        "web_165",
+        "web_170",
+        "web_191",
+        "web_202",
+        "web_207",
+        "web_208"
+      ],
+      "size": 12,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "web_g5",
+      "category": "web",
+      "members": [
+        "web_23",
+        "web_24",
+        "web_133",
+        "web_137",
+        "web_161",
+        "web_180",
+        "web_182",
+        "web_192",
+        "web_201"
+      ],
+      "size": 9,
+      "hard_pcs_hot_in_all": 2
+    },
+    {
+      "name": "web_g6",
+      "category": "web",
+      "members": [
+        "web_136",
+        "web_145",
+        "web_158",
+        "web_168",
+        "web_181",
+        "web_193",
+        "web_204",
+        "web_205",
+        "web_206"
+      ],
+      "size": 9,
+      "hard_pcs_hot_in_all": 7
+    },
+    {
+      "name": "web_g7",
+      "category": "web",
+      "members": [
+        "web_26",
+        "web_30",
+        "web_97",
+        "web_115",
+        "web_117",
+        "web_118"
+      ],
+      "size": 6,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "web_g8",
+      "category": "web",
+      "members": [
+        "web_10",
+        "web_11",
+        "web_134",
+        "web_173",
+        "web_188"
+      ],
+      "size": 5,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "web_g9",
+      "category": "web",
+      "members": [
+        "web_36",
+        "web_42",
+        "web_44",
+        "web_129",
+        "web_131"
+      ],
+      "size": 5,
+      "hard_pcs_hot_in_all": 7
+    },
+    {
+      "name": "web_g10",
+      "category": "web",
+      "members": [
+        "web_157",
+        "web_162",
+        "web_185",
+        "web_189",
+        "web_197"
+      ],
+      "size": 5,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "web_g11",
+      "category": "web",
+      "members": [
+        "web_16",
+        "web_167",
+        "web_178",
+        "web_190",
+        "web_198"
+      ],
+      "size": 5,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "web_g12",
+      "category": "web",
+      "members": [
+        "web_52",
+        "web_96",
+        "web_101",
+        "web_102"
+      ],
+      "size": 4,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "web_g13",
+      "category": "web",
+      "members": [
+        "web_141",
+        "web_142",
+        "web_166"
+      ],
+      "size": 3,
+      "hard_pcs_hot_in_all": 17
+    },
+    {
+      "name": "web_g14",
+      "category": "web",
+      "members": [
+        "web_149",
+        "web_150",
+        "web_156"
+      ],
+      "size": 3,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "web_g15",
+      "category": "web",
+      "members": [
+        "web_18",
+        "web_22",
+        "web_186"
+      ],
+      "size": 3,
+      "hard_pcs_hot_in_all": 11
+    },
+    {
+      "name": "web_g16",
+      "category": "web",
+      "members": [
+        "web_103",
+        "web_104"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 17
+    },
+    {
+      "name": "web_g17",
+      "category": "web",
+      "members": [
+        "web_94",
+        "web_113"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "web_g18",
+      "category": "web",
+      "members": [
+        "web_12",
+        "web_147"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 15
+    },
+    {
+      "name": "web_g19",
+      "category": "web",
+      "members": [
+        "web_135",
+        "web_171"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "web_g20",
+      "category": "web",
+      "members": [
+        "web_14",
+        "web_172"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 21
+    },
+    {
+      "name": "web_g21",
+      "category": "web",
+      "members": [
+        "web_154",
+        "web_155"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 10
+    },
+    {
+      "name": "web_g22",
+      "category": "web",
+      "members": [
+        "web_175",
+        "web_200"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 14
+    },
+    {
+      "name": "web_g23",
+      "category": "web",
+      "members": [
+        "web_58",
+        "web_59"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 17
+    },
+    {
+      "name": "web_g24",
+      "category": "web",
+      "members": [
+        "web_61",
+        "web_89"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 5
+    },
+    {
+      "name": "web_g25",
+      "category": "web",
+      "members": [
+        "web_63",
+        "web_64"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g26",
+      "category": "web",
+      "members": [
+        "web_7",
+        "web_93"
+      ],
+      "size": 2,
+      "hard_pcs_hot_in_all": 18
+    },
+    {
+      "name": "web_g27",
+      "category": "web",
+      "members": [
+        "web_111"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "web_g28",
+      "category": "web",
+      "members": [
+        "web_112"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 4
+    },
+    {
+      "name": "web_g29",
+      "category": "web",
+      "members": [
+        "web_123"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 8
+    },
+    {
+      "name": "web_g30",
+      "category": "web",
+      "members": [
+        "web_144"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 15
+    },
+    {
+      "name": "web_g31",
+      "category": "web",
+      "members": [
+        "web_146"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 3
+    },
+    {
+      "name": "web_g32",
+      "category": "web",
+      "members": [
+        "web_148"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g33",
+      "category": "web",
+      "members": [
+        "web_163"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g34",
+      "category": "web",
+      "members": [
+        "web_176"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 1
+    },
+    {
+      "name": "web_g35",
+      "category": "web",
+      "members": [
+        "web_177"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g36",
+      "category": "web",
+      "members": [
+        "web_183"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "web_g37",
+      "category": "web",
+      "members": [
+        "web_184"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 2
+    },
+    {
+      "name": "web_g38",
+      "category": "web",
+      "members": [
+        "web_203"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 2
+    },
+    {
+      "name": "web_g39",
+      "category": "web",
+      "members": [
+        "web_21"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g40",
+      "category": "web",
+      "members": [
+        "web_25"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g41",
+      "category": "web",
+      "members": [
+        "web_48"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "web_g42",
+      "category": "web",
+      "members": [
+        "web_49"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g43",
+      "category": "web",
+      "members": [
+        "web_50"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g44",
+      "category": "web",
+      "members": [
+        "web_54"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g45",
+      "category": "web",
+      "members": [
+        "web_69"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 10
+    },
+    {
+      "name": "web_g46",
+      "category": "web",
+      "members": [
+        "web_71"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 9
+    },
+    {
+      "name": "web_g47",
+      "category": "web",
+      "members": [
+        "web_77"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 7
+    },
+    {
+      "name": "web_g48",
+      "category": "web",
+      "members": [
+        "web_84"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 6
+    },
+    {
+      "name": "web_g49",
+      "category": "web",
+      "members": [
+        "web_85"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g50",
+      "category": "web",
+      "members": [
+        "web_86"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g51",
+      "category": "web",
+      "members": [
+        "web_87"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 16
+    },
+    {
+      "name": "web_g52",
+      "category": "web",
+      "members": [
+        "web_98"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 13
+    },
+    {
+      "name": "web_g53",
+      "category": "web",
+      "members": [
+        "web_99"
+      ],
+      "size": 1,
+      "hard_pcs_hot_in_all": 12
+    }
+  ]
+}

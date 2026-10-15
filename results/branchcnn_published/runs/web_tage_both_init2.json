@@ -1,0 +1,217 @@
+{
+  "dataset": {
+    "history_length": 64,
+    "pc_bits": 14,
+    "vocabulary_size": 32768,
+    "num_scalars": 84,
+    "num_seq_numeric": 7,
+    "splits": {
+      "train": {
+        "families": [
+          "W27",
+          "W3",
+          "W5",
+          "W8"
+        ],
+        "traces": [
+          "web_27_trace",
+          "web_3_trace",
+          "web_5_trace",
+          "web_8_trace"
+        ],
+        "samples": 24800221,
+        "taken_rate": 0.379554
+      },
+      "validation": {
+        "families": [
+          "W31"
+        ],
+        "traces": [
+          "web_31_trace"
+        ],
+        "samples": 6079345,
+        "taken_rate": 0.380507
+      },
+      "test": {
+        "families": [
+          "W32",
+          "W33"
+        ],
+        "traces": [
+          "web_32_trace",
+          "web_33_trace"
+        ],
+        "samples": 12066723,
+        "taken_rate": 0.394828
+      }
+    }
+  },
+  "model_config": {
+    "vocabulary_size": 32768,
+    "num_pc_ids": 16384,
+    "num_scalars": 84,
+    "num_seq_numeric": 7,
+    "history_length": 64,
+    "token_embed_dim": 32,
+    "class_embed_dim": 8,
+    "pc_embed_dim": 32,
+    "conv_channels": [
+      64,
+      64,
+      128
+    ],
+    "kernel_size": 3,
+    "pool_every": 1,
+    "dropout": 0.2,
+    "head_dims": [
+      256,
+      64
+    ],
+    "use_sequence": true,
+    "use_scalars": true,
+    "use_pc": true,
+    "aux_targets": 0,
+    "use_tage": true,
+    "tage_mode": "both",
+    "num_tage_features": 6,
+    "num_tage_states": 48,
+    "tage_init": 2.0
+  },
+  "train_config": {
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 6,
+    "patience": 3,
+    "max_batches": null,
+    "shuffle_labels": false,
+    "device": "mps",
+    "seed": 0,
+    "threads": null
+  },
+  "parameters": 1929810,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.07570669173341166,
+      "train_accuracy": 0.9717821062965527,
+      "val_loss": 0.06562801168932467,
+      "val_accuracy": 0.9767170640916085,
+      "seconds": 516.367073059082
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0712388082135107,
+      "train_accuracy": 0.972731291386476,
+      "val_loss": 0.06482463420164421,
+      "val_accuracy": 0.9772987056993805,
+      "seconds": 520.9162549972534
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.07043399142356066,
+      "train_accuracy": 0.9729410475817937,
+      "val_loss": 0.06370084286186599,
+      "val_accuracy": 0.9772783087651713,
+      "seconds": 521.2242050170898
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.07005362880943666,
+      "train_accuracy": 0.9730334661130641,
+      "val_loss": 0.06443469359757302,
+      "val_accuracy": 0.9771850421385857,
+      "seconds": 520.2083332538605
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.06983331979688819,
+      "train_accuracy": 0.9730808044008963,
+      "val_loss": 0.06388591701982568,
+      "val_accuracy": 0.9772138281344454,
+      "seconds": 520.4234700202942
+    }
+  ],
+  "best_val_accuracy": 0.9772987056993805,
+  "test": {
+    "loss": 0.0753604950365022,
+    "accuracy": 0.9712472060558612,
+    "samples": 12066723
+  },
+  "test_mpki_on_scored_branches": 4.336897939973478,
+  "tage_weights": {
+    "global_scale": 1.2154875993728638,
+    "per_state_weight": [
+      0.8370893597602844,
+      1.5153562128543854,
+      0.5371376872062683,
+      1.2154875993728638,
+      1.2154875993728638,
+      1.2154875993728638,
+      1.2154875993728638,
+      1.2154875993728638,
+      1.0342725068330765,
+      1.894092321395874,
+      0.5378046035766602,
+      1.2154875993728638,
+      1.0433539003133774,
+      1.9713658690452576,
+      0.6642945408821106,
+      1.2154875993728638,
+      1.1762804128229618,
+      1.900217592716217,
+      0.537067711353302,
+      1.2154875993728638,
+      1.0957953408360481,
+      1.9005805253982544,
+      0.7001275420188904,
+      1.2154875993728638,
+      0.9525692760944366,
+      1.3581517487764359,
+      1.033032476902008,
+      1.2154875993728638,
+      1.153261438012123,
+      1.8382129669189453,
+      0.748500257730484,
+      1.2154875993728638,
+      0.9339756071567535,
+      1.132244847714901,
+      1.2300799768418074,
+      1.2154875993728638,
+      1.0960367247462273,
+      1.7604866027832031,
+      0.6188935041427612,
+      1.2154875993728638,
+      0.9118159115314484,
+      1.067297026515007,
+      1.18815778195858,
+      1.2154875993728638,
+      1.18793641962111,
+      1.0792833268642426,
+      0.8788546025753021,
+      1.2154875993728638
+    ]
+  },
+  "baselines": {
+    "validation": {
+      "samples": 6079345,
+      "instructions": 40000018,
+      "taken_rate": 0.3805071105522059,
+      "majority_accuracy": 0.6194928894477941,
+      "always_taken_accuracy": 0.3805071105522059,
+      "two_bit_accuracy": 0.9117363794948304,
+      "tage_accuracy": 0.9751163982304014,
+      "tage_mpki": 3.781898298145766
+    },
+    "test": {
+      "samples": 12066723,
+      "instructions": 80000038,
+      "taken_rate": 0.39482848823164335,
+      "majority_accuracy": 0.6051715117683567,
+      "always_taken_accuracy": 0.39482848823164335,
+      "two_bit_accuracy": 0.9082223897905007,
+      "tage_accuracy": 0.9679356193060866,
+      "tage_mpki": 4.836397702711091
+    }
+  }
+}

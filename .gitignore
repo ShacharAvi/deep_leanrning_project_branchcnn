@@ -1,0 +1,19 @@
+# build output and Python caches
+build/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+
+# data: traces and everything derived from them (see README, "Data")
+new_data/
+data/
+experiments/
+branchcnn/data/
+branchcnn/logs/
+
+# large per-execution prediction dumps (regenerate with branchcnn/scripts/dump_predictions.py)
+branchcnn/results/*/predictions_*.npz
+# per-run logs written next to the result JSONs
+results/cbp2025/crosstrace/*.log

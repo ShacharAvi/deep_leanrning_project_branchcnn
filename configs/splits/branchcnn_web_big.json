@@ -1,0 +1,31 @@
+{
+ "category": "web",
+ "note": "plan (b): 16 train traces for BOTH models; test = fold-1 test traces",
+ "train": [
+  "web_3",
+  "web_5",
+  "web_8",
+  "web_27",
+  "web_106",
+  "web_82",
+  "web_53",
+  "web_81",
+  "web_80",
+  "web_105",
+  "web_124",
+  "web_34",
+  "web_47",
+  "web_4",
+  "web_75",
+  "web_90"
+ ],
+ "validation": [
+  "web_31",
+  "web_128",
+  "web_2"
+ ],
+ "test": [
+  "web_32",
+  "web_33"
+ ]
+}

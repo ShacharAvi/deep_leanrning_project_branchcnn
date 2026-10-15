@@ -1,0 +1,118 @@
+{
+  "dataset": {
+    "history_length": 64,
+    "pc_bits": 14,
+    "vocabulary_size": 32768,
+    "num_scalars": 84,
+    "num_seq_numeric": 7,
+    "splits": {
+      "train": {
+        "families": [
+          "A"
+        ],
+        "traces": [
+          "media_0_trace",
+          "media_12_trace",
+          "media_13_trace",
+          "media_1_trace"
+        ],
+        "samples": 4380739,
+        "taken_rate": 0.495492
+      },
+      "validation": {
+        "families": [
+          "B"
+        ],
+        "traces": [
+          "media_10_trace",
+          "media_11_trace"
+        ],
+        "samples": 1687087,
+        "taken_rate": 0.423051
+      },
+      "test": {
+        "families": [
+          "C"
+        ],
+        "traces": [
+          "media_2_trace"
+        ],
+        "samples": 682265,
+        "taken_rate": 0.509381
+      }
+    }
+  },
+  "model_config": {
+    "vocabulary_size": 32768,
+    "num_pc_ids": 16384,
+    "num_scalars": 84,
+    "num_seq_numeric": 7,
+    "history_length": 64,
+    "token_embed_dim": 32,
+    "class_embed_dim": 8,
+    "pc_embed_dim": 32,
+    "conv_channels": [
+      64,
+      64,
+      128
+    ],
+    "kernel_size": 3,
+    "pool_every": 1,
+    "dropout": 0.2,
+    "head_dims": [
+      256,
+      64
+    ],
+    "use_sequence": true,
+    "use_scalars": true,
+    "use_pc": true,
+    "aux_targets": 0
+  },
+  "train_config": {
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 1,
+    "patience": 3,
+    "max_batches": 40,
+    "shuffle_labels": false,
+    "device": "cpu",
+    "seed": 0,
+    "threads": null
+  },
+  "parameters": 1928225,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3955653827637434,
+      "train_accuracy": 0.824267578125,
+      "val_loss": 0.22931594658750756,
+      "val_accuracy": 0.9208315872269777,
+      "seconds": 57.98676371574402
+    }
+  ],
+  "best_val_accuracy": 0.9208315872269777,
+  "test": {
+    "loss": 0.18229006343109938,
+    "accuracy": 0.9376429979553399,
+    "samples": 682265
+  },
+  "baselines": {
+    "validation": {
+      "samples": 1687087,
+      "instructions": 40000097,
+      "taken_rate": 0.42305109339352387,
+      "majority_accuracy": 0.5769489066064761,
+      "always_taken_accuracy": 0.42305109339352387,
+      "two_bit_accuracy": 0.9103347960122982
+    },
+    "test": {
+      "samples": 682265,
+      "instructions": 20000038,
+      "taken_rate": 0.5093812521527559,
+      "majority_accuracy": 0.5093812521527559,
+      "always_taken_accuracy": 0.5093812521527559,
+      "two_bit_accuracy": 0.9345913977706609
+    }
+  }
+}

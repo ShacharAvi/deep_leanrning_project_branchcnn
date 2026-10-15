@@ -1,0 +1,2 @@
+{"category": "web", "note": "BranchCNN (track B) web fold 2, exact traces",
+ "train": ["web_3", "web_5", "web_8", "web_27", "web_32"], "validation": ["web_33"], "test": ["web_31"]}

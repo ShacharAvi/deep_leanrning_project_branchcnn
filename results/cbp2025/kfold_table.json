@@ -1,0 +1,106 @@
+{
+  "web_g0": [
+    {
+      "fold": 0,
+      "tage_mpki": 3.042287573942939,
+      "branch": 0.017680530598530336,
+      "threshold": 0.020561240887642256,
+      "learned": 0.023573432090108253,
+      "shared_corrected": 0.02336981928678909,
+      "tokens_branch": 0.006383215730960833,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 1,
+      "tage_mpki": 3.8353975456120164,
+      "branch": 0.018582091606083123,
+      "threshold": 0.022525634841657143,
+      "learned": 0.024978670826760762,
+      "shared_corrected": 0.024604957638596173,
+      "tokens_branch": 0.006952803500736563,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 2,
+      "tage_mpki": 3.249549608160954,
+      "branch": 0.014331117630565757,
+      "threshold": 0.019190789788619222,
+      "learned": 0.022953723269666073,
+      "shared_corrected": 0.02294944915167306,
+      "tokens_branch": 0.0032628616758645685,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 3,
+      "tage_mpki": 3.7062006925793187,
+      "branch": 0.019290599411643464,
+      "threshold": 0.021528602746913,
+      "learned": 0.024407427532837415,
+      "shared_corrected": 0.02440517903651933,
+      "tokens_branch": 0.0009773463995952707,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 4,
+      "tage_mpki": 3.507851176840968,
+      "branch": 0.018537831509245557,
+      "threshold": 0.02041774658839758,
+      "learned": 0.022561356579663183,
+      "shared_corrected": 0.022471874522399418,
+      "tokens_branch": 0.00903689590702735,
+      "labelshuffle": 0.0
+    }
+  ],
+  "infra_g0": [
+    {
+      "fold": 0,
+      "tage_mpki": 1.7591016020810804,
+      "branch": 0.03332656105383615,
+      "threshold": 0.04152101924542915,
+      "learned": 0.04476476747638819,
+      "shared_corrected": 0.046133115231203885,
+      "tokens_branch": 0.0032159645202013624,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 1,
+      "tage_mpki": 1.6335924116133398,
+      "branch": -0.003985218006068364,
+      "threshold": 0.00384823105761797,
+      "learned": 0.0061203249267434735,
+      "shared_corrected": 0.005359811178449906,
+      "tokens_branch": 0.0,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 2,
+      "tage_mpki": 2.0008023610562553,
+      "branch": -0.01697511674818315,
+      "threshold": -0.0025784768852413716,
+      "learned": 0.0007754428141147862,
+      "shared_corrected": 0.002153624029401199,
+      "tokens_branch": -0.0035559838624996546,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 3,
+      "tage_mpki": 1.9863435121525286,
+      "branch": -0.05198681526806527,
+      "threshold": -0.015455638111888112,
+      "learned": -0.003064903846153846,
+      "shared_corrected": 0.00298113344988345,
+      "tokens_branch": 0.0,
+      "labelshuffle": 0.0
+    },
+    {
+      "fold": 4,
+      "tage_mpki": 1.3900035320518822,
+      "branch": -0.004324275760649327,
+      "threshold": 0.006828052704622885,
+      "learned": 0.008523244459891102,
+      "shared_corrected": 0.009227801144786399,
+      "tokens_branch": 0.0,
+      "labelshuffle": 0.0
+    }
+  ]
+}

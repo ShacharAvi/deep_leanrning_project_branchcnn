@@ -1,0 +1,58 @@
+{
+  "trace": "media_13",
+  "test_instructions": 6159571,
+  "gate_alpha": 0.05,
+  "tage_test_mispredictions": 7230,
+  "tage_test_mpki": 1.17378304430617,
+  "variants": {
+    "tokens": {
+      "branches_modelled": 5,
+      "attach_all": {
+        "attached": 5,
+        "mispredictions": 7695,
+        "mpki": 1.2492753147905917,
+        "mpki_reduction": -0.06431535269709543
+      },
+      "attach_gated": {
+        "attached": 0,
+        "mispredictions": 7230,
+        "mpki": 1.17378304430617,
+        "mpki_reduction": 0.0
+      }
+    },
+    "tage_raw": {
+      "branches_modelled": 5,
+      "attach_all": {
+        "attached": 5,
+        "mispredictions": 7690,
+        "mpki": 1.2484635699466733,
+        "mpki_reduction": -0.0636237897648686
+      },
+      "attach_gated": {
+        "attached": 0,
+        "mispredictions": 7230,
+        "mpki": 1.17378304430617,
+        "mpki_reduction": 0.0
+      }
+    },
+    "tage_raw_shuffled": {
+      "branches_modelled": 5,
+      "attach_all": {
+        "attached": 5,
+        "mispredictions": 7725,
+        "mpki": 1.2541457838541028,
+        "mpki_reduction": -0.06846473029045644
+      },
+      "attach_gated": {
+        "attached": 0,
+        "mispredictions": 7230,
+        "mpki": 1.17378304430617,
+        "mpki_reduction": 0.0
+      }
+    }
+  },
+  "oracle_perfect_on_modelled": {
+    "mpki": 0.9499038163534441,
+    "mpki_reduction": 0.19073305670816043
+  }
+}

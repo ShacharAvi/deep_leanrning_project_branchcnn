@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "pc": "0xaaaaab468ba8",
+  "category": "deep-correlation",
+  "variant": "tage_raw",
+  "features": "tage_raw",
+  "alpha": 0.0,
+  "train_traces": null,
+  "sizes": [
+    104120,
+    25527,
+    15741
+  ],
+  "features_kept": 55,
+  "train_samples_available": 104120,
+  "val_model_accuracy": 0.7262898107885768,
+  "val_tage_accuracy": 0.7200219375563129,
+  "test_model_accuracy": 0.7388984181437012,
+  "test_tage_accuracy": 0.7347055460263008,
+  "test_bias_accuracy": 0.6289308176100629,
+  "best_epoch": 2,
+  "epoch_seconds": 3.3578327894210815
+}

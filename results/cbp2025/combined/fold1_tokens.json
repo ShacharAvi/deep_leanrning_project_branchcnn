@@ -1,0 +1,272 @@
+{
+  "fold": 1,
+  "specialist_variant": "tokens",
+  "test_instructions": 80000038,
+  "tage": {
+    "misses": 386912,
+    "mpki": 4.836397702711091
+  },
+  "branchcnn": {
+    "misses": 343877,
+    "mpki": 4.298460458231283
+  },
+  "A_tage|cnn": {
+    "misses": 344824,
+    "mpki": 4.310297952608472,
+    "kept": true,
+    "oof_p": 0.0,
+    "share_using_branchcnn": 0.005815829202344331
+  },
+  "oracle_tage|cnn": {
+    "misses": 319414,
+    "mpki": 3.992673103480276
+  },
+  "B_cnn|spec": {
+    "misses": 341585,
+    "mpki": 4.269810471840026,
+    "branches": 16,
+    "branches_enabled": 6,
+    "per_branch": {
+      "0xaaaaab10a074": {
+        "incumbent_misses": 2458,
+        "combined_misses": 2458,
+        "specialist_alone_misses": 3371,
+        "executions": 10173,
+        "enabled": false
+      },
+      "0xaaaaab350a24": {
+        "incumbent_misses": 1501,
+        "combined_misses": 1321,
+        "specialist_alone_misses": 1466,
+        "executions": 7104,
+        "enabled": true
+      },
+      "0xaaaaab3b38dc": {
+        "incumbent_misses": 1972,
+        "combined_misses": 1914,
+        "specialist_alone_misses": 2130,
+        "executions": 47395,
+        "enabled": true
+      },
+      "0xaaaaab3b38e8": {
+        "incumbent_misses": 8279,
+        "combined_misses": 7040,
+        "specialist_alone_misses": 8367,
+        "executions": 45043,
+        "enabled": true
+      },
+      "0xaaaaab3b3908": {
+        "incumbent_misses": 11652,
+        "combined_misses": 11255,
+        "specialist_alone_misses": 13409,
+        "executions": 62494,
+        "enabled": true
+      },
+      "0xaaaaab3b3a18": {
+        "incumbent_misses": 1852,
+        "combined_misses": 1656,
+        "specialist_alone_misses": 2297,
+        "executions": 12473,
+        "enabled": true
+      },
+      "0xaaaaab3b40a0": {
+        "incumbent_misses": 5691,
+        "combined_misses": 5691,
+        "specialist_alone_misses": 8184,
+        "executions": 26258,
+        "enabled": false
+      },
+      "0xaaaaab3b40b4": {
+        "incumbent_misses": 6874,
+        "combined_misses": 6874,
+        "specialist_alone_misses": 8781,
+        "executions": 26258,
+        "enabled": false
+      },
+      "0xaaaaab3b4234": {
+        "incumbent_misses": 2056,
+        "combined_misses": 2056,
+        "specialist_alone_misses": 2244,
+        "executions": 29089,
+        "enabled": false
+      },
+      "0xaaaaab3b425c": {
+        "incumbent_misses": 7442,
+        "combined_misses": 7442,
+        "specialist_alone_misses": 8330,
+        "executions": 29089,
+        "enabled": false
+      },
+      "0xaaaaab468ba8": {
+        "incumbent_misses": 1552,
+        "combined_misses": 1552,
+        "specialist_alone_misses": 1579,
+        "executions": 4757,
+        "enabled": false
+      },
+      "0xaaaaab4b7e60": {
+        "incumbent_misses": 2277,
+        "combined_misses": 2277,
+        "specialist_alone_misses": 4385,
+        "executions": 17749,
+        "enabled": false
+      },
+      "0xaaaaab4bd76c": {
+        "incumbent_misses": 2649,
+        "combined_misses": 2649,
+        "specialist_alone_misses": 3850,
+        "executions": 11070,
+        "enabled": false
+      },
+      "0xaaaaab4bd7a8": {
+        "incumbent_misses": 1926,
+        "combined_misses": 1926,
+        "specialist_alone_misses": 2795,
+        "executions": 11070,
+        "enabled": false
+      },
+      "0xaaaaab4bd7c8": {
+        "incumbent_misses": 1729,
+        "combined_misses": 1729,
+        "specialist_alone_misses": 2017,
+        "executions": 7110,
+        "enabled": false
+      },
+      "0xaaaaab4c1b14": {
+        "incumbent_misses": 2599,
+        "combined_misses": 2377,
+        "specialist_alone_misses": 2702,
+        "executions": 12442,
+        "enabled": true
+      }
+    }
+  },
+  "oracle_B_cnn|spec": {
+    "misses": 316845,
+    "mpki": 3.960560618733706
+  },
+  "C_full": {
+    "misses": 342751,
+    "mpki": 4.284385464916904,
+    "branches": 16,
+    "branches_enabled": 4,
+    "per_branch": {
+      "0xaaaaab10a074": {
+        "incumbent_misses": 2457,
+        "combined_misses": 2457,
+        "specialist_alone_misses": 3371,
+        "executions": 10173,
+        "enabled": false
+      },
+      "0xaaaaab350a24": {
+        "incumbent_misses": 1507,
+        "combined_misses": 1507,
+        "specialist_alone_misses": 1466,
+        "executions": 7104,
+        "enabled": false
+      },
+      "0xaaaaab3b38dc": {
+        "incumbent_misses": 1972,
+        "combined_misses": 1972,
+        "specialist_alone_misses": 2130,
+        "executions": 47395,
+        "enabled": false
+      },
+      "0xaaaaab3b38e8": {
+        "incumbent_misses": 8275,
+        "combined_misses": 7034,
+        "specialist_alone_misses": 8367,
+        "executions": 45043,
+        "enabled": true
+      },
+      "0xaaaaab3b3908": {
+        "incumbent_misses": 11661,
+        "combined_misses": 11258,
+        "specialist_alone_misses": 13409,
+        "executions": 62494,
+        "enabled": true
+      },
+      "0xaaaaab3b3a18": {
+        "incumbent_misses": 1852,
+        "combined_misses": 1647,
+        "specialist_alone_misses": 2297,
+        "executions": 12473,
+        "enabled": true
+      },
+      "0xaaaaab3b40a0": {
+        "incumbent_misses": 5692,
+        "combined_misses": 5692,
+        "specialist_alone_misses": 8184,
+        "executions": 26258,
+        "enabled": false
+      },
+      "0xaaaaab3b40b4": {
+        "incumbent_misses": 6848,
+        "combined_misses": 6848,
+        "specialist_alone_misses": 8781,
+        "executions": 26258,
+        "enabled": false
+      },
+      "0xaaaaab3b4234": {
+        "incumbent_misses": 2074,
+        "combined_misses": 2074,
+        "specialist_alone_misses": 2244,
+        "executions": 29089,
+        "enabled": false
+      },
+      "0xaaaaab3b425c": {
+        "incumbent_misses": 7485,
+        "combined_misses": 7485,
+        "specialist_alone_misses": 8330,
+        "executions": 29089,
+        "enabled": false
+      },
+      "0xaaaaab468ba8": {
+        "incumbent_misses": 1546,
+        "combined_misses": 1546,
+        "specialist_alone_misses": 1579,
+        "executions": 4757,
+        "enabled": false
+      },
+      "0xaaaaab4b7e60": {
+        "incumbent_misses": 2277,
+        "combined_misses": 2277,
+        "specialist_alone_misses": 4385,
+        "executions": 17749,
+        "enabled": false
+      },
+      "0xaaaaab4bd76c": {
+        "incumbent_misses": 2641,
+        "combined_misses": 2641,
+        "specialist_alone_misses": 3850,
+        "executions": 11070,
+        "enabled": false
+      },
+      "0xaaaaab4bd7a8": {
+        "incumbent_misses": 1925,
+        "combined_misses": 1925,
+        "specialist_alone_misses": 2795,
+        "executions": 11070,
+        "enabled": false
+      },
+      "0xaaaaab4bd7c8": {
+        "incumbent_misses": 1737,
+        "combined_misses": 1737,
+        "specialist_alone_misses": 2017,
+        "executions": 7110,
+        "enabled": false
+      },
+      "0xaaaaab4c1b14": {
+        "incumbent_misses": 2587,
+        "combined_misses": 2363,
+        "specialist_alone_misses": 2702,
+        "executions": 12442,
+        "enabled": true
+      }
+    }
+  },
+  "oracle_C_full": {
+    "misses": 317513,
+    "mpki": 3.968910614767458
+  }
+}

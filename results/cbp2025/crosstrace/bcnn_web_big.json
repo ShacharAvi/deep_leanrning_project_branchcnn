@@ -1,0 +1,2526 @@
+{
+  "group": "bcnn_web_big",
+  "test_traces": [
+    "web_32",
+    "web_33"
+  ],
+  "test_instructions": 80000038,
+  "tage_misses": 386590,
+  "tage_mpki": 4.832372704622966,
+  "variants": {
+    "tokens": {
+      "branches": 16,
+      "branch": {
+        "hybrid_mpki": 4.8231602089989005,
+        "mpki_reduction": 0.0019064124783362219,
+        "branches_used": 1
+      },
+      "confidence": {
+        "hybrid_mpki": 4.7643227369467,
+        "mpki_reduction": 0.01408210248583771,
+        "branches_used": 9
+      },
+      "oracle": {
+        "hybrid_mpki": 4.464197879506007,
+        "mpki_reduction": 0.07618924441915208,
+        "branches_used": 16
+      },
+      "attach_all": {
+        "hybrid_mpki": 4.847397697486094,
+        "mpki_reduction": -0.0031092371763366874,
+        "branches_used": 16
+      },
+      "learned_lr": {
+        "hybrid_mpki": 4.737322749771693,
+        "mpki_reduction": 0.01966941721203342,
+        "branches_used": 15
+      },
+      "learned_gbdt": {
+        "hybrid_mpki": 4.740785248127007,
+        "mpki_reduction": 0.018952895832794435,
+        "branches_used": 13
+      },
+      "learned_lr_fb": {
+        "hybrid_mpki": 4.737322749771693,
+        "mpki_reduction": 0.01966941721203342,
+        "branches_used": 15
+      },
+      "by_category": {
+        "deep-correlation": {
+          "branches": 13,
+          "tage_misses": 47673,
+          "confidence_saved": 5394,
+          "branch_saved": 737
+        },
+        "uncertain": {
+          "branches": 2,
+          "tage_misses": 12519,
+          "confidence_saved": 50,
+          "branch_saved": 0
+        },
+        "confidently-wrong": {
+          "branches": 1,
+          "tage_misses": 2250,
+          "confidence_saved": 0,
+          "branch_saved": 0
+        }
+      },
+      "per_branch": [
+        {
+          "pc": "0xaaaaab10a074",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2474,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2417,
+            "overridden": 1882,
+            "rule": [
+              "low",
+              0.1
+            ],
+            "val_p": 7.737828580202474e-06
+          },
+          "learned_lr": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2330,
+            "overridden": 1018,
+            "kept": true,
+            "oof_p": 0.02695590941942937,
+            "oof_gain": 81,
+            "rows": 5383
+          },
+          "learned_lr_fb": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2330,
+            "overridden": 1018,
+            "kept": true,
+            "oof_p": 0.02695590941942937,
+            "oof_gain": 81,
+            "rows": 5383,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2404,
+            "overridden": 1066,
+            "kept": true,
+            "oof_p": 1.2162515214639364e-10,
+            "oof_gain": 246,
+            "rows": 5383
+          },
+          "oracle": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 1349,
+            "overridden": 2944
+          },
+          "attach_all": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 3168,
+            "overridden": 10173
+          }
+        },
+        {
+          "pc": "0xaaaaab3b38dc",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 2020,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1875,
+            "overridden": 2631,
+            "rule": [
+              "low+medium",
+              0.4
+            ],
+            "val_p": 1.891142735342129e-11
+          },
+          "learned_lr": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1715,
+            "overridden": 675,
+            "kept": true,
+            "oof_p": 9.463524926624436e-18,
+            "oof_gain": 275,
+            "rows": 3228
+          },
+          "learned_lr_fb": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1715,
+            "overridden": 675,
+            "kept": true,
+            "oof_p": 9.463524926624436e-18,
+            "oof_gain": 275,
+            "rows": 3228,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1690,
+            "overridden": 714,
+            "kept": true,
+            "oof_p": 9.484722939827462e-11,
+            "oof_gain": 216,
+            "rows": 3228
+          },
+          "oracle": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1122,
+            "overridden": 1464
+          },
+          "attach_all": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1688,
+            "overridden": 47395
+          }
+        },
+        {
+          "pc": "0xaaaaab3b38e8",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 8407,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9999999999903583
+          },
+          "confidence": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5754,
+            "overridden": 35029,
+            "rule": [
+              "all",
+              0.3
+            ],
+            "val_p": 1.2883365194079575e-79
+          },
+          "learned_lr": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5819,
+            "overridden": 4406,
+            "kept": true,
+            "oof_p": 9.93805687417613e-154,
+            "oof_gain": 2170,
+            "rows": 14972
+          },
+          "learned_lr_fb": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5819,
+            "overridden": 4406,
+            "kept": true,
+            "oof_p": 9.93805687417613e-154,
+            "oof_gain": 2170,
+            "rows": 14972,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5839,
+            "overridden": 4264,
+            "kept": true,
+            "oof_p": 2.3866530904018056e-171,
+            "oof_gain": 2237,
+            "rows": 14972
+          },
+          "oracle": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 2942,
+            "overridden": 8355
+          },
+          "attach_all": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5832,
+            "overridden": 45043
+          }
+        },
+        {
+          "pc": "0xaaaaab3b3908",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 11803,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10874,
+            "overridden": 9375,
+            "rule": [
+              "low+medium",
+              0.3
+            ],
+            "val_p": 2.922404560644658e-16
+          },
+          "learned_lr": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10520,
+            "overridden": 3593,
+            "kept": true,
+            "oof_p": 3.120948424677492e-34,
+            "oof_gain": 865,
+            "rows": 20389
+          },
+          "learned_lr_fb": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10520,
+            "overridden": 3593,
+            "kept": true,
+            "oof_p": 3.120948424677492e-34,
+            "oof_gain": 865,
+            "rows": 20389,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10540,
+            "overridden": 3289,
+            "kept": true,
+            "oof_p": 2.9531916885106923e-37,
+            "oof_gain": 865,
+            "rows": 20389
+          },
+          "oracle": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 5810,
+            "overridden": 11182
+          },
+          "attach_all": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10999,
+            "overridden": 62494
+          }
+        },
+        {
+          "pc": "0xaaaaab3b3a18",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1888,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.5383037235650423
+          },
+          "confidence": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1231,
+            "overridden": 8954,
+            "rule": [
+              "all",
+              0.4
+            ],
+            "val_p": 3.361255528711858e-53
+          },
+          "learned_lr": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1150,
+            "overridden": 1334,
+            "kept": true,
+            "oof_p": 1.1357151967189067e-65,
+            "oof_gain": 756,
+            "rows": 3893
+          },
+          "learned_lr_fb": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1150,
+            "overridden": 1334,
+            "kept": true,
+            "oof_p": 1.1357151967189067e-65,
+            "oof_gain": 756,
+            "rows": 3893,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1165,
+            "overridden": 1301,
+            "kept": true,
+            "oof_p": 1.3363253504021363e-63,
+            "oof_gain": 742,
+            "rows": 3893
+          },
+          "oracle": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 554,
+            "overridden": 2089
+          },
+          "attach_all": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1309,
+            "overridden": 12473
+          }
+        },
+        {
+          "pc": "0xaaaaab3b40a0",
+          "category": "uncertain",
+          "branch": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5606,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5606,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.11493220348456015
+          },
+          "learned_lr": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5406,
+            "overridden": 1090,
+            "kept": true,
+            "oof_p": 2.069517083982566e-08,
+            "oof_gain": 209,
+            "rows": 10292
+          },
+          "learned_lr_fb": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5406,
+            "overridden": 1090,
+            "kept": true,
+            "oof_p": 2.069517083982566e-08,
+            "oof_gain": 209,
+            "rows": 10292,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5394,
+            "overridden": 1178,
+            "kept": true,
+            "oof_p": 0.00018931962410137482,
+            "oof_gain": 146,
+            "rows": 10292
+          },
+          "oracle": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 3422,
+            "overridden": 6131
+          },
+          "attach_all": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 7369,
+            "overridden": 26258
+          }
+        },
+        {
+          "pc": "0xaaaaab3b40b4",
+          "category": "uncertain",
+          "branch": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6913,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6863,
+            "overridden": 1403,
+            "rule": [
+              "all",
+              0.45
+            ],
+            "val_p": 2.5280187755795476e-07
+          },
+          "learned_lr": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6605,
+            "overridden": 1460,
+            "kept": true,
+            "oof_p": 1.4222566990317483e-09,
+            "oof_gain": 263,
+            "rows": 13235
+          },
+          "learned_lr_fb": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6605,
+            "overridden": 1460,
+            "kept": true,
+            "oof_p": 1.4222566990317483e-09,
+            "oof_gain": 263,
+            "rows": 13235,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6616,
+            "overridden": 1511,
+            "kept": true,
+            "oof_p": 3.5596695861639394e-06,
+            "oof_gain": 216,
+            "rows": 13235
+          },
+          "oracle": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 3890,
+            "overridden": 7749
+          },
+          "attach_all": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 8616,
+            "overridden": 26258
+          }
+        },
+        {
+          "pc": "0xaaaaab3b4234",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2129,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2089,
+            "overridden": 21032,
+            "rule": [
+              "all",
+              0.45
+            ],
+            "val_p": 8.811541832888578e-07
+          },
+          "learned_lr": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2036,
+            "overridden": 313,
+            "kept": true,
+            "oof_p": 0.0003021881934663195,
+            "oof_gain": 95,
+            "rows": 3073
+          },
+          "learned_lr_fb": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2036,
+            "overridden": 313,
+            "kept": true,
+            "oof_p": 0.0003021881934663195,
+            "oof_gain": 95,
+            "rows": 3073,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2034,
+            "overridden": 353,
+            "kept": true,
+            "oof_p": 0.0049509585680262555,
+            "oof_gain": 74,
+            "rows": 3073
+          },
+          "oracle": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 1506,
+            "overridden": 1299
+          },
+          "attach_all": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2182,
+            "overridden": 29089
+          }
+        },
+        {
+          "pc": "0xaaaaab3b425c",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7540,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7540,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.0711883873348733
+          },
+          "learned_lr": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7179,
+            "overridden": 1633,
+            "kept": true,
+            "oof_p": 1.1033926339155396e-05,
+            "oof_gain": 194,
+            "rows": 9306
+          },
+          "learned_lr_fb": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7179,
+            "overridden": 1633,
+            "kept": true,
+            "oof_p": 1.1033926339155396e-05,
+            "oof_gain": 194,
+            "rows": 9306,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7190,
+            "overridden": 1618,
+            "kept": true,
+            "oof_p": 7.293565893056244e-08,
+            "oof_gain": 243,
+            "rows": 9306
+          },
+          "oracle": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 4867,
+            "overridden": 5569
+          },
+          "attach_all": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7763,
+            "overridden": 29089
+          }
+        },
+        {
+          "pc": "0xaaaaab468aec",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1318,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9999999999999983
+          },
+          "confidence": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1318,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.005119833257353981
+          },
+          "learned_lr": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1199,
+            "overridden": 347,
+            "kept": true,
+            "oof_p": 0.00029315309842842935,
+            "oof_gain": 90,
+            "rows": 1963
+          },
+          "learned_lr_fb": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1199,
+            "overridden": 347,
+            "kept": true,
+            "oof_p": 0.00029315309842842935,
+            "oof_gain": 90,
+            "rows": 1963,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1318,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.22437062025946328,
+            "oof_gain": 21,
+            "rows": 1963
+          },
+          "oracle": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 896,
+            "overridden": 763
+          },
+          "attach_all": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1237,
+            "overridden": 6413
+          }
+        },
+        {
+          "pc": "0xaaaaab468ba8",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.999999999973109
+          },
+          "confidence": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.019725520471405054
+          },
+          "learned_lr": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.5509099174575749,
+            "oof_gain": -3,
+            "rows": 2919
+          },
+          "learned_lr_fb": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.5509099174575749,
+            "oof_gain": -3,
+            "rows": 2919,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.9806715750765643,
+            "oof_gain": -68,
+            "rows": 2919
+          },
+          "oracle": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 852,
+            "overridden": 1244
+          },
+          "attach_all": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1443,
+            "overridden": 4757
+          }
+        },
+        {
+          "pc": "0xaaaaab4a2d24",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 1016,
+            "overridden": 56979,
+            "rule": [
+              "all",
+              0.0
+            ],
+            "val_p": 9.780043872355355e-28
+          },
+          "confidence": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 977,
+            "overridden": 55686,
+            "rule": [
+              "all",
+              0.3
+            ],
+            "val_p": 1.0261282812852057e-97
+          },
+          "learned_lr": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 943,
+            "overridden": 1106,
+            "kept": true,
+            "oof_p": 9.117413062110009e-109,
+            "oof_gain": 846,
+            "rows": 2369
+          },
+          "learned_lr_fb": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 943,
+            "overridden": 1106,
+            "kept": true,
+            "oof_p": 9.117413062110009e-109,
+            "oof_gain": 846,
+            "rows": 2369,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 974,
+            "overridden": 1021,
+            "kept": true,
+            "oof_p": 2.9039060071984643e-120,
+            "oof_gain": 851,
+            "rows": 2369
+          },
+          "oracle": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 598,
+            "overridden": 1573
+          },
+          "attach_all": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 1016,
+            "overridden": 56979
+          }
+        },
+        {
+          "pc": "0xaaaaab4b7e60",
+          "category": "confidently-wrong",
+          "branch": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2250,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2250,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.16945134299838088
+          },
+          "learned_lr": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2234,
+            "overridden": 556,
+            "kept": true,
+            "oof_p": 0.015525704886655082,
+            "oof_gain": 57,
+            "rows": 3141
+          },
+          "learned_lr_fb": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2234,
+            "overridden": 556,
+            "kept": true,
+            "oof_p": 0.015525704886655082,
+            "oof_gain": 57,
+            "rows": 3141,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2250,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.6118181183544906,
+            "oof_gain": -7,
+            "rows": 3141
+          },
+          "oracle": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 1443,
+            "overridden": 2937
+          },
+          "attach_all": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 3573,
+            "overridden": 17749
+          }
+        },
+        {
+          "pc": "0xaaaaab4bd76c",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2619,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2619,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.5000000000000004
+          },
+          "learned_lr": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2444,
+            "overridden": 765,
+            "kept": true,
+            "oof_p": 2.7252321943367362e-08,
+            "oof_gain": 179,
+            "rows": 6926
+          },
+          "learned_lr_fb": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2444,
+            "overridden": 765,
+            "kept": true,
+            "oof_p": 2.7252321943367362e-08,
+            "oof_gain": 179,
+            "rows": 6926,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2428,
+            "overridden": 827,
+            "kept": true,
+            "oof_p": 8.825821825877912e-09,
+            "oof_gain": 195,
+            "rows": 6926
+          },
+          "oracle": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 1360,
+            "overridden": 2998
+          },
+          "attach_all": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 3099,
+            "overridden": 11070
+          }
+        },
+        {
+          "pc": "0xaaaaab4bd7c8",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1655,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1655,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.011640058482063353
+          },
+          "learned_lr": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1533,
+            "overridden": 436,
+            "kept": true,
+            "oof_p": 4.983869087193613e-07,
+            "oof_gain": 149,
+            "rows": 5161
+          },
+          "learned_lr_fb": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1533,
+            "overridden": 436,
+            "kept": true,
+            "oof_p": 4.983869087193613e-07,
+            "oof_gain": 149,
+            "rows": 5161,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1525,
+            "overridden": 430,
+            "kept": true,
+            "oof_p": 4.176504271075028e-05,
+            "oof_gain": 126,
+            "rows": 5161
+          },
+          "oracle": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1013,
+            "overridden": 1522
+          },
+          "attach_all": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1893,
+            "overridden": 7110
+          }
+        },
+        {
+          "pc": "0xaaaaab4c1b14",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2562,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9999977307657666
+          },
+          "confidence": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2425,
+            "overridden": 5213,
+            "rule": [
+              "all",
+              0.4
+            ],
+            "val_p": 7.12371366957915e-18
+          },
+          "learned_lr": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2220,
+            "overridden": 1118,
+            "kept": true,
+            "oof_p": 2.542915188001297e-24,
+            "oof_gain": 378,
+            "rows": 3471
+          },
+          "learned_lr_fb": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2220,
+            "overridden": 1118,
+            "kept": true,
+            "oof_p": 2.542915188001297e-24,
+            "oof_gain": 378,
+            "rows": 3471,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2243,
+            "overridden": 1145,
+            "kept": true,
+            "oof_p": 5.197653327429612e-22,
+            "oof_gain": 365,
+            "rows": 3471
+          },
+          "oracle": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 1364,
+            "overridden": 2291
+          },
+          "attach_all": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2457,
+            "overridden": 12442
+          }
+        }
+      ]
+    },
+    "tage_raw": {
+      "branches": 16,
+      "branch": {
+        "hybrid_mpki": 4.7824102283551415,
+        "mpki_reduction": 0.010339118963242713,
+        "branches_used": 3
+      },
+      "confidence": {
+        "hybrid_mpki": 4.758285239814511,
+        "mpki_reduction": 0.015331488139889805,
+        "branches_used": 12
+      },
+      "oracle": {
+        "hybrid_mpki": 4.5975103161826,
+        "mpki_reduction": 0.048601877958560746,
+        "branches_used": 16
+      },
+      "attach_all": {
+        "hybrid_mpki": 4.754597741566073,
+        "mpki_reduction": 0.016094570475180425,
+        "branches_used": 16
+      },
+      "learned_lr": {
+        "hybrid_mpki": 4.742572747277945,
+        "mpki_reduction": 0.018582994904162032,
+        "branches_used": 15
+      },
+      "learned_gbdt": {
+        "hybrid_mpki": 4.744110246547633,
+        "mpki_reduction": 0.018264828371142555,
+        "branches_used": 15
+      },
+      "learned_lr_fb": {
+        "hybrid_mpki": 4.742572747277945,
+        "mpki_reduction": 0.018582994904162032,
+        "branches_used": 15
+      },
+      "by_category": {
+        "deep-correlation": {
+          "branches": 13,
+          "tage_misses": 47673,
+          "confidence_saved": 5769,
+          "branch_saved": 3997
+        },
+        "uncertain": {
+          "branches": 2,
+          "tage_misses": 12519,
+          "confidence_saved": 94,
+          "branch_saved": 0
+        },
+        "confidently-wrong": {
+          "branches": 1,
+          "tage_misses": 2250,
+          "confidence_saved": 64,
+          "branch_saved": 0
+        }
+      },
+      "per_branch": [
+        {
+          "pc": "0xaaaaab10a074",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2474,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9999999999999982
+          },
+          "confidence": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2228,
+            "overridden": 2904,
+            "rule": [
+              "low+medium",
+              0.2
+            ],
+            "val_p": 3.677712631290181e-19
+          },
+          "learned_lr": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2208,
+            "overridden": 962,
+            "kept": true,
+            "oof_p": 4.213335040272679e-10,
+            "oof_gain": 258,
+            "rows": 3515
+          },
+          "learned_lr_fb": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2208,
+            "overridden": 962,
+            "kept": true,
+            "oof_p": 4.213335040272679e-10,
+            "oof_gain": 258,
+            "rows": 3515,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2193,
+            "overridden": 973,
+            "kept": true,
+            "oof_p": 1.3230612937641287e-20,
+            "oof_gain": 364,
+            "rows": 3515
+          },
+          "oracle": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 1454,
+            "overridden": 2160
+          },
+          "attach_all": {
+            "executions": 10173,
+            "tage_misses": 2474,
+            "hybrid_misses": 2594,
+            "overridden": 10173
+          }
+        },
+        {
+          "pc": "0xaaaaab3b38dc",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 2020,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.18928267211110927
+          },
+          "confidence": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1772,
+            "overridden": 4434,
+            "rule": [
+              "low+medium",
+              0.1
+            ],
+            "val_p": 6.368157833198182e-19
+          },
+          "learned_lr": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1727,
+            "overridden": 713,
+            "kept": true,
+            "oof_p": 3.782515291734455e-22,
+            "oof_gain": 324,
+            "rows": 2168
+          },
+          "learned_lr_fb": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1727,
+            "overridden": 713,
+            "kept": true,
+            "oof_p": 3.782515291734455e-22,
+            "oof_gain": 324,
+            "rows": 2168,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1719,
+            "overridden": 775,
+            "kept": true,
+            "oof_p": 8.447681196903177e-20,
+            "oof_gain": 310,
+            "rows": 2168
+          },
+          "oracle": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1248,
+            "overridden": 1268
+          },
+          "attach_all": {
+            "executions": 47395,
+            "tage_misses": 2020,
+            "hybrid_misses": 1744,
+            "overridden": 47395
+          }
+        },
+        {
+          "pc": "0xaaaaab3b38e8",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5846,
+            "overridden": 45043,
+            "rule": [
+              "all",
+              0.0
+            ],
+            "val_p": 3.14934397026838e-44
+          },
+          "confidence": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 6103,
+            "overridden": 41656,
+            "rule": [
+              "all",
+              0.1
+            ],
+            "val_p": 2.7192137974826184e-114
+          },
+          "learned_lr": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 6034,
+            "overridden": 3827,
+            "kept": true,
+            "oof_p": 1.9397110770399933e-174,
+            "oof_gain": 2101,
+            "rows": 8792
+          },
+          "learned_lr_fb": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 6034,
+            "overridden": 3827,
+            "kept": true,
+            "oof_p": 1.9397110770399933e-174,
+            "oof_gain": 2101,
+            "rows": 8792,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 6076,
+            "overridden": 3779,
+            "kept": true,
+            "oof_p": 2.899945366474886e-170,
+            "oof_gain": 2049,
+            "rows": 8792
+          },
+          "oracle": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 4477,
+            "overridden": 5299
+          },
+          "attach_all": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5846,
+            "overridden": 45043
+          }
+        },
+        {
+          "pc": "0xaaaaab3b3908",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 11803,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9473253187087389
+          },
+          "confidence": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10682,
+            "overridden": 18353,
+            "rule": [
+              "low+medium",
+              0.1
+            ],
+            "val_p": 6.536284694270722e-30
+          },
+          "learned_lr": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10451,
+            "overridden": 3574,
+            "kept": true,
+            "oof_p": 8.08285243738889e-55,
+            "oof_gain": 1077,
+            "rows": 10007
+          },
+          "learned_lr_fb": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10451,
+            "overridden": 3574,
+            "kept": true,
+            "oof_p": 8.08285243738889e-55,
+            "oof_gain": 1077,
+            "rows": 10007,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10491,
+            "overridden": 3540,
+            "kept": true,
+            "oof_p": 2.869402062557281e-44,
+            "oof_gain": 969,
+            "rows": 10007
+          },
+          "oracle": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 8003,
+            "overridden": 6104
+          },
+          "attach_all": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 10307,
+            "overridden": 62494
+          }
+        },
+        {
+          "pc": "0xaaaaab3b3a18",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1234,
+            "overridden": 12473,
+            "rule": [
+              "all",
+              0.0
+            ],
+            "val_p": 7.85060621561397e-14
+          },
+          "confidence": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1356,
+            "overridden": 10331,
+            "rule": [
+              "all",
+              0.3
+            ],
+            "val_p": 1.2733261899042847e-53
+          },
+          "learned_lr": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1215,
+            "overridden": 1071,
+            "kept": true,
+            "oof_p": 6.794785067323739e-61,
+            "oof_gain": 659,
+            "rows": 2549
+          },
+          "learned_lr_fb": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1215,
+            "overridden": 1071,
+            "kept": true,
+            "oof_p": 6.794785067323739e-61,
+            "oof_gain": 659,
+            "rows": 2549,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1236,
+            "overridden": 1092,
+            "kept": true,
+            "oof_p": 1.1625842892710114e-65,
+            "oof_gain": 676,
+            "rows": 2549
+          },
+          "oracle": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 830,
+            "overridden": 1462
+          },
+          "attach_all": {
+            "executions": 12473,
+            "tage_misses": 1888,
+            "hybrid_misses": 1234,
+            "overridden": 12473
+          }
+        },
+        {
+          "pc": "0xaaaaab3b40a0",
+          "category": "uncertain",
+          "branch": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5606,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9998443573268525
+          },
+          "confidence": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5606,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.004487466177041305
+          },
+          "learned_lr": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5456,
+            "overridden": 870,
+            "kept": true,
+            "oof_p": 1.7536058864568577e-05,
+            "oof_gain": 137,
+            "rows": 2439
+          },
+          "learned_lr_fb": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5456,
+            "overridden": 870,
+            "kept": true,
+            "oof_p": 1.7536058864568577e-05,
+            "oof_gain": 137,
+            "rows": 2439,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5420,
+            "overridden": 944,
+            "kept": true,
+            "oof_p": 0.003194335299873686,
+            "oof_gain": 94,
+            "rows": 2439
+          },
+          "oracle": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 4734,
+            "overridden": 1670
+          },
+          "attach_all": {
+            "executions": 26258,
+            "tage_misses": 5606,
+            "hybrid_misses": 5532,
+            "overridden": 26258
+          }
+        },
+        {
+          "pc": "0xaaaaab3b40b4",
+          "category": "uncertain",
+          "branch": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6913,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9999995905452572
+          },
+          "confidence": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6819,
+            "overridden": 14961,
+            "rule": [
+              "all",
+              0.2
+            ],
+            "val_p": 3.45555205939728e-07
+          },
+          "learned_lr": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6688,
+            "overridden": 1207,
+            "kept": true,
+            "oof_p": 4.197776032385325e-10,
+            "oof_gain": 249,
+            "rows": 4483
+          },
+          "learned_lr_fb": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6688,
+            "overridden": 1207,
+            "kept": true,
+            "oof_p": 4.197776032385325e-10,
+            "oof_gain": 249,
+            "rows": 4483,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6674,
+            "overridden": 1255,
+            "kept": true,
+            "oof_p": 3.3443106727158515e-05,
+            "oof_gain": 175,
+            "rows": 4483
+          },
+          "oracle": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 5505,
+            "overridden": 2733
+          },
+          "attach_all": {
+            "executions": 26258,
+            "tage_misses": 6913,
+            "hybrid_misses": 6830,
+            "overridden": 26258
+          }
+        },
+        {
+          "pc": "0xaaaaab3b4234",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2129,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.07282708197833414
+          },
+          "confidence": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2060,
+            "overridden": 28293,
+            "rule": [
+              "all",
+              0.1
+            ],
+            "val_p": 1.0022698203076006e-05
+          },
+          "learned_lr": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2059,
+            "overridden": 262,
+            "kept": true,
+            "oof_p": 0.00011461620539917578,
+            "oof_gain": 97,
+            "rows": 1181
+          },
+          "learned_lr_fb": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2059,
+            "overridden": 262,
+            "kept": true,
+            "oof_p": 0.00011461620539917578,
+            "oof_gain": 97,
+            "rows": 1181,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2060,
+            "overridden": 277,
+            "kept": true,
+            "oof_p": 0.01729341898885671,
+            "oof_gain": 56,
+            "rows": 1181
+          },
+          "oracle": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 1870,
+            "overridden": 454
+          },
+          "attach_all": {
+            "executions": 29089,
+            "tage_misses": 2129,
+            "hybrid_misses": 2065,
+            "overridden": 29089
+          }
+        },
+        {
+          "pc": "0xaaaaab3b425c",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7540,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.7743193062163722
+          },
+          "confidence": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7359,
+            "overridden": 24319,
+            "rule": [
+              "all",
+              0.1
+            ],
+            "val_p": 5.2481509657169025e-09
+          },
+          "learned_lr": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7263,
+            "overridden": 1171,
+            "kept": true,
+            "oof_p": 1.6628688346211222e-10,
+            "oof_gain": 248,
+            "rows": 3413
+          },
+          "learned_lr_fb": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7263,
+            "overridden": 1171,
+            "kept": true,
+            "oof_p": 1.6628688346211222e-10,
+            "oof_gain": 248,
+            "rows": 3413,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7272,
+            "overridden": 1254,
+            "kept": true,
+            "oof_p": 1.810373012704369e-07,
+            "oof_gain": 212,
+            "rows": 3413
+          },
+          "oracle": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 6314,
+            "overridden": 2229
+          },
+          "attach_all": {
+            "executions": 29089,
+            "tage_misses": 7540,
+            "hybrid_misses": 7317,
+            "overridden": 29089
+          }
+        },
+        {
+          "pc": "0xaaaaab468aec",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1318,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9999913396873673
+          },
+          "confidence": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1246,
+            "overridden": 4179,
+            "rule": [
+              "all",
+              0.3
+            ],
+            "val_p": 1.1283463084455109e-07
+          },
+          "learned_lr": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1208,
+            "overridden": 296,
+            "kept": true,
+            "oof_p": 4.0293465429531716e-05,
+            "oof_gain": 90,
+            "rows": 1355
+          },
+          "learned_lr_fb": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1208,
+            "overridden": 296,
+            "kept": true,
+            "oof_p": 4.0293465429531716e-05,
+            "oof_gain": 90,
+            "rows": 1355,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1218,
+            "overridden": 268,
+            "kept": true,
+            "oof_p": 0.00021865709391418695,
+            "oof_gain": 77,
+            "rows": 1355
+          },
+          "oracle": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 991,
+            "overridden": 574
+          },
+          "attach_all": {
+            "executions": 6413,
+            "tage_misses": 1318,
+            "hybrid_misses": 1238,
+            "overridden": 6413
+          }
+        },
+        {
+          "pc": "0xaaaaab468ba8",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9999961467443063
+          },
+          "confidence": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.02986605075688016
+          },
+          "learned_lr": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.06758243192676867,
+            "oof_gain": 41,
+            "rows": 2083
+          },
+          "learned_lr_fb": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.06758243192676867,
+            "oof_gain": 41,
+            "rows": 2083,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1505,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.6563181910440439,
+            "oof_gain": -11,
+            "rows": 2083
+          },
+          "oracle": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1001,
+            "overridden": 910
+          },
+          "attach_all": {
+            "executions": 4757,
+            "tage_misses": 1505,
+            "hybrid_misses": 1407,
+            "overridden": 4757
+          }
+        },
+        {
+          "pc": "0xaaaaab4a2d24",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 971,
+            "overridden": 56979,
+            "rule": [
+              "all",
+              0.0
+            ],
+            "val_p": 1.883868358731809e-51
+          },
+          "confidence": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 961,
+            "overridden": 56336,
+            "rule": [
+              "all",
+              0.2
+            ],
+            "val_p": 5.590986745872177e-92
+          },
+          "learned_lr": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 940,
+            "overridden": 1063,
+            "kept": true,
+            "oof_p": 2.662302214524565e-99,
+            "oof_gain": 798,
+            "rows": 2045
+          },
+          "learned_lr_fb": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 940,
+            "overridden": 1063,
+            "kept": true,
+            "oof_p": 2.662302214524565e-99,
+            "oof_gain": 798,
+            "rows": 2045,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 964,
+            "overridden": 1027,
+            "kept": true,
+            "oof_p": 2.9502048849774634e-101,
+            "oof_gain": 795,
+            "rows": 2045
+          },
+          "oracle": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 686,
+            "overridden": 1352
+          },
+          "attach_all": {
+            "executions": 56979,
+            "tage_misses": 1753,
+            "hybrid_misses": 971,
+            "overridden": 56979
+          }
+        },
+        {
+          "pc": "0xaaaaab4b7e60",
+          "category": "confidently-wrong",
+          "branch": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2250,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.9916978511984028
+          },
+          "confidence": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2186,
+            "overridden": 4408,
+            "rule": [
+              "low+medium",
+              0.1
+            ],
+            "val_p": 0.0008118275993254284
+          },
+          "learned_lr": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2179,
+            "overridden": 499,
+            "kept": true,
+            "oof_p": 3.69195062605172e-05,
+            "oof_gain": 101,
+            "rows": 1260
+          },
+          "learned_lr_fb": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2179,
+            "overridden": 499,
+            "kept": true,
+            "oof_p": 3.69195062605172e-05,
+            "oof_gain": 101,
+            "rows": 1260,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2198,
+            "overridden": 530,
+            "kept": true,
+            "oof_p": 3.961451045606356e-05,
+            "oof_gain": 99,
+            "rows": 1260
+          },
+          "oracle": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 1769,
+            "overridden": 1051
+          },
+          "attach_all": {
+            "executions": 17749,
+            "tage_misses": 2250,
+            "hybrid_misses": 2339,
+            "overridden": 17749
+          }
+        },
+        {
+          "pc": "0xaaaaab4bd76c",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2619,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2619,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.09363896651389264
+          },
+          "learned_lr": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2549,
+            "overridden": 482,
+            "kept": true,
+            "oof_p": 0.0029863687776283832,
+            "oof_gain": 65,
+            "rows": 2108
+          },
+          "learned_lr_fb": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2549,
+            "overridden": 482,
+            "kept": true,
+            "oof_p": 0.0029863687776283832,
+            "oof_gain": 65,
+            "rows": 2108,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2547,
+            "overridden": 500,
+            "kept": true,
+            "oof_p": 0.021518275121210937,
+            "oof_gain": 53,
+            "rows": 2108
+          },
+          "oracle": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2023,
+            "overridden": 1334
+          },
+          "attach_all": {
+            "executions": 11070,
+            "tage_misses": 2619,
+            "hybrid_misses": 2761,
+            "overridden": 11070
+          }
+        },
+        {
+          "pc": "0xaaaaab4bd7c8",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1655,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1655,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.005210384704719409
+          },
+          "learned_lr": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1550,
+            "overridden": 333,
+            "kept": true,
+            "oof_p": 3.303615817341688e-07,
+            "oof_gain": 132,
+            "rows": 2800
+          },
+          "learned_lr_fb": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1550,
+            "overridden": 333,
+            "kept": true,
+            "oof_p": 3.303615817341688e-07,
+            "oof_gain": 132,
+            "rows": 2800,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1543,
+            "overridden": 364,
+            "kept": true,
+            "oof_p": 2.141639630774869e-06,
+            "oof_gain": 135,
+            "rows": 2800
+          },
+          "oracle": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1222,
+            "overridden": 933
+          },
+          "attach_all": {
+            "executions": 7110,
+            "tage_misses": 1655,
+            "hybrid_misses": 1722,
+            "overridden": 7110
+          }
+        },
+        {
+          "pc": "0xaaaaab4c1b14",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2562,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 0.705594462661403
+          },
+          "confidence": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2358,
+            "overridden": 2879,
+            "rule": [
+              "low+medium",
+              0.2
+            ],
+            "val_p": 8.462132076411076e-10
+          },
+          "learned_lr": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2226,
+            "overridden": 1080,
+            "kept": true,
+            "oof_p": 2.1348065178075374e-26,
+            "oof_gain": 388,
+            "rows": 2878
+          },
+          "learned_lr_fb": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2226,
+            "overridden": 1080,
+            "kept": true,
+            "oof_p": 2.1348065178075374e-26,
+            "oof_gain": 388,
+            "rows": 2878,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2265,
+            "overridden": 1061,
+            "kept": true,
+            "oof_p": 3.340319694108153e-25,
+            "oof_gain": 378,
+            "rows": 2878
+          },
+          "oracle": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 1526,
+            "overridden": 1823
+          },
+          "attach_all": {
+            "executions": 12442,
+            "tage_misses": 2562,
+            "hybrid_misses": 2313,
+            "overridden": 12442
+          }
+        }
+      ]
+    },
+    "tokens_labelshuffle": {
+      "branches": 2,
+      "branch": {
+        "hybrid_mpki": 4.832372704622966,
+        "mpki_reduction": 0.0,
+        "branches_used": 0
+      },
+      "confidence": {
+        "hybrid_mpki": 4.832372704622966,
+        "mpki_reduction": 0.0,
+        "branches_used": 0
+      },
+      "oracle": {
+        "hybrid_mpki": 4.736060250371381,
+        "mpki_reduction": 0.01993067590987868,
+        "branches_used": 2
+      },
+      "attach_all": {
+        "hybrid_mpki": 4.9803351343408115,
+        "mpki_reduction": -0.030619002043508627,
+        "branches_used": 2
+      },
+      "learned_lr": {
+        "hybrid_mpki": 4.832010204795153,
+        "mpki_reduction": 7.501487363873871e-05,
+        "branches_used": 1
+      },
+      "learned_gbdt": {
+        "hybrid_mpki": 4.832035204783278,
+        "mpki_reduction": 6.984143407744639e-05,
+        "branches_used": 1
+      },
+      "learned_lr_fb": {
+        "hybrid_mpki": 4.832010204795153,
+        "mpki_reduction": 7.501487363873871e-05,
+        "branches_used": 1
+      },
+      "by_category": {
+        "deep-correlation": {
+          "branches": 2,
+          "tage_misses": 20210,
+          "confidence_saved": 0,
+          "branch_saved": 0
+        }
+      },
+      "per_branch": [
+        {
+          "pc": "0xaaaaab3b38e8",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 8407,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 8407,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "learned_lr": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 8378,
+            "overridden": 545,
+            "kept": true,
+            "oof_p": 0.03914653554981737,
+            "oof_gain": 55,
+            "rows": 26411
+          },
+          "learned_lr_fb": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 8378,
+            "overridden": 545,
+            "kept": true,
+            "oof_p": 0.03914653554981737,
+            "oof_gain": 55,
+            "rows": 26411,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 8380,
+            "overridden": 527,
+            "kept": true,
+            "oof_p": 0.04120905669678942,
+            "oof_gain": 55,
+            "rows": 26411
+          },
+          "oracle": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 5070,
+            "overridden": 15215
+          },
+          "attach_all": {
+            "executions": 45043,
+            "tage_misses": 8407,
+            "hybrid_misses": 16948,
+            "overridden": 45043
+          }
+        },
+        {
+          "pc": "0xaaaaab3b3908",
+          "category": "deep-correlation",
+          "branch": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 11803,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "confidence": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 11803,
+            "overridden": 0,
+            "rule": [
+              null,
+              0.0
+            ],
+            "val_p": 1.0
+          },
+          "learned_lr": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 11803,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.4033187371666046,
+            "oof_gain": 11,
+            "rows": 19772
+          },
+          "learned_lr_fb": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 11803,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.4033187371666046,
+            "oof_gain": 11,
+            "rows": 19772,
+            "source": "learned"
+          },
+          "learned_gbdt": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 11803,
+            "overridden": 0,
+            "kept": false,
+            "oof_p": 0.2673491064143097,
+            "oof_gain": 22,
+            "rows": 19772
+          },
+          "oracle": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 7435,
+            "overridden": 12032
+          },
+          "attach_all": {
+            "executions": 62494,
+            "tage_misses": 11803,
+            "hybrid_misses": 15099,
+            "overridden": 62494
+          }
+        }
+      ]
+    }
+  }
+}

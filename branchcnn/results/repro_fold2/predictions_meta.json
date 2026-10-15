@@ -1,0 +1,18 @@
+{
+  "validation": {
+    "samples": 6037861,
+    "instructions": 40000019,
+    "branchcnn_misses": 166796,
+    "tage_misses": 188730,
+    "branchcnn_mpki": 4.169898019298441,
+    "tage_mpki": 4.718247758832314
+  },
+  "test": {
+    "samples": 6079345,
+    "instructions": 40000018,
+    "branchcnn_misses": 139153,
+    "tage_misses": 151276,
+    "branchcnn_mpki": 3.4788234345294544,
+    "tage_mpki": 3.781898298145766
+  }
+}

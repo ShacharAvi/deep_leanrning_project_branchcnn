@@ -1,0 +1,11 @@
+# Python 3.11. Install PyTorch first if you need a specific CUDA build:
+#   https://pytorch.org/get-started/locally/
+torch>=2.2
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pandas>=2.2
+h5py>=3.10
+zstandard>=0.22
+matplotlib>=3.8
+pytest>=8.0
